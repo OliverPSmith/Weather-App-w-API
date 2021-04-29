@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(56, 45, 45);
+}
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    margin: 20px;
+}
+form input {
+    outline: none;
+    height: 5vmin;
+    width: 30vmin;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: rgb(119, 96, 96);
+    border: none;
+    color: white;
+    font-size: 2.5vmin;
+}
+form input::placeholder {
+    color: white;
+    font-size: 2.5vmin;
+}
+form button {
+    width: 5vmin;
+    height: 5vmin;
+    outline: none;
+    background-color: rgb(119, 96, 96);
+    border: none;
+    border-radius: 2%;
+    color: white;
+}
+
+.container {
+    position: relative;
+    display: block;
+    width: 50vmin;
+    height: 50vh;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/Sunset.jpeg");
+    background-size: 100%; 
+}
+
+
+.main-info {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+}
+.main-info h2 {
+    color: white;
+    margin: 10px;
+    border-bottom: 1px solid white;
+    font-size: 3.6vmin;
+}
+
+.more-info {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+.more-info p {
+    color: white;
+    margin: 7px;
+    border-bottom: 1px solid white;
+    font-size: 2vmin;
+}
+
+h1 {
+    font-size: 4vmin;
+    color: white;
+}
