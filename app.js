@@ -16,7 +16,7 @@ async function weatherApp(search) {
 };
 
 async function fetchAPI(search) {
-    const baseURL = `http://api.weatherstack.com/current?access_key=${key}&query=${search}`;
+    const baseURL = `https://api.weatherstack.com/current?access_key=${key}&query=${search}`;
     const res = await fetch(baseURL);
     const data = await res.json();
         console.log(data);
